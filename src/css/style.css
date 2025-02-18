@@ -11,7 +11,7 @@ body{
 header{
     margin-left: 19px;
     margin-right: 19px;
-    margin-top: 5px;
+    margin-top: 10px;
 }
 header h1{
     width: 264px;
@@ -20,7 +20,6 @@ header h1{
     color: var(--color-1);
 }
 header p{
-    /* background-color: blue; */
     width: 342px;
     margin-top: 9px;
     font-family: "Inter_18pt-Bold";
@@ -73,4 +72,15 @@ header p{
 }
 .section__form p a{
     color: var(--color-3);
+}
+footer{
+    height: 450px;
+    position: relative;
+    overflow: hidden;
+}
+footer img{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    object-fit: cover;
 }
